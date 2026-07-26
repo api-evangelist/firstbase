@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.firstbase.io/
+status_page: https://status.firstbase.io/
+status_page_provider: openstatus.dev
+monitored_components:
+- name: Marketing Website
+  host: firstbase.io
+- name: Application Onboarding
+  host: onboarding.firstbase.io
+- name: Application
+  host: app.firstbase.io
+# No public API versioning policy, deprecation policy, RFC 8594 Sunset/Deprecation
+# header support, or published SLA was found — Firstbase publishes no developer
+# documentation for its embedded Incorporation API. Absence recorded as honest
+# negative; no Deprecation pointer emitted.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
